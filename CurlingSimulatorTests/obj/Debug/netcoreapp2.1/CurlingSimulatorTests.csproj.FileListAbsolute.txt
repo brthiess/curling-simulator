@@ -1,0 +1,17 @@
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.csprojAssemblyReference.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.csproj.CoreCompileInputs.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.AssemblyInfoInputs.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.AssemblyInfo.cs
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulatorTests.deps.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulatorTests.runtimeconfig.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulatorTests.runtimeconfig.dev.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulatorTests.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulatorTests.pdb
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulator.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\bin\Debug\netcoreapp2.1\CurlingSimulator.pdb
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.csproj.CopyComplete
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulatorTests\obj\Debug\netcoreapp2.1\CurlingSimulatorTests.pdb

@@ -1,0 +1,11 @@
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.csprojAssemblyReference.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.csproj.CoreCompileInputs.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.AssemblyInfoInputs.cache
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.AssemblyInfo.cs
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\bin\Debug\netcoreapp2.1\CurlingSimulator.deps.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\bin\Debug\netcoreapp2.1\CurlingSimulator.runtimeconfig.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\bin\Debug\netcoreapp2.1\CurlingSimulator.runtimeconfig.dev.json
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\bin\Debug\netcoreapp2.1\CurlingSimulator.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\bin\Debug\netcoreapp2.1\CurlingSimulator.pdb
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.dll
+C:\Users\brad\source\repos\CurlingSimulator\CurlingSimulator\obj\Debug\netcoreapp2.1\CurlingSimulator.pdb
