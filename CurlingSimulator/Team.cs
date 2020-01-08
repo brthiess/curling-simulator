@@ -44,7 +44,7 @@ namespace CurlingSimulator
 
 		public static double GetRatingFromRanking(int ranking)
 		{
-			double rating = (95.6740233 + -14.68314639 * Math.Log(ranking + 2)) / 100;
+			double rating = (95.6740233 + -14.68314639 * Math.Log(ranking)) / 100;
 			if (rating < 0.01)
 			{
 				rating = 0.01;
