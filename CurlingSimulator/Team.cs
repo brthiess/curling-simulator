@@ -35,7 +35,7 @@ namespace CurlingSimulator
 			}
 			if (Rating < 0 || Rating > 1)
 			{
-				throw new Exception("Rating is not within a valid range (0,1)");
+				throw new Exception("Rating is not within a valid range (0,1).  Rating is: " + Rating);
 			}
 
 			this.Name = name;
@@ -44,7 +44,10 @@ namespace CurlingSimulator
 
 		public static double GetRatingFromRanking(int ranking)
 		{
-			double rating = (95.6740233 + -14.68314639 * Math.Log(ranking)) / 100;
+			//double rating = (94.6740233 + -14.68314639 * Math.Log(ranking + Math.E)) / 100;
+			//double rating = 65.54*Math.Pow(Math.E, -0.0093221 * ranking) / 100;
+			//double rating = (-9450.702849 * Math.Atan(5.4421135 * ranking + 129.2) + 14857) / 100;
+			double rating = (-23 * Math.Atan(0.07 * ranking - 1.5) + 55) / 100;
 			if (rating < 0.01)
 			{
 				rating = 0.01;
@@ -59,7 +62,7 @@ namespace CurlingSimulator
 
 		public static (Team winner, Team loser) PlayGame(Team homeTeam, Team awayTeam, bool giveHammerAdvantageToTeamWithBetterRecord = false, bool isRoundRobinGame=true)
 		{
-			double probabilityHomeBeatsAway = GetProbabilityOfHomeBeatingAway(homeTeam, awayTeam, giveHammerAdvantageToTeamWithBetterRecord); 
+			double probabilityHomeBeatsAway = GetProbabilityOfHomeBeatingAway(homeTeam, awayTeam, false); 
 			var random = new Random();
 			if (random.NextDouble() < probabilityHomeBeatsAway)
 			{
