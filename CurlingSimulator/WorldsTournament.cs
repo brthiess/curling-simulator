@@ -21,7 +21,7 @@ namespace CurlingSimulator
 			{
 				for (var j = i + 1; j < teams.Count; j++)
 				{
-					Team.PlayGame(teams[i], teams[j]);
+					Team.PlayGame(teams[j], teams[i]);
 				}
 			}
 			SetFinalRankingsForNonPlayoffTeams();
@@ -58,13 +58,13 @@ namespace CurlingSimulator
 
 		private List<Team> GetTop6Teams()
 		{
-			List<Team> TeamsSorted = teams.OrderByDescending(o => o.RoundRobinRecord.Wins).ToList();
+			List<Team> TeamsSorted = teams.OrderByDescending(o => o.RoundRobinRecord.Wins).ThenBy(o => o.LsdTotal).ToList();
 			return TeamsSorted.GetRange(0, 6);
 		}
 
 		private List<Team> GetAllTeamsButTop6()
 		{
-			List<Team> TeamsSorted = teams.OrderByDescending(o => o.RoundRobinRecord.Wins).ToList();
+			List<Team> TeamsSorted = teams.OrderByDescending(o => o.RoundRobinRecord.Wins).ThenBy(o => o.LsdTotal).ToList();
 			return TeamsSorted.GetRange(6, TeamsSorted.Count() - 6);
 		}
 	}

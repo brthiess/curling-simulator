@@ -20,7 +20,7 @@ namespace CurlingSimulator
 			tournament.AddTeam(new Team("Gim\t", null, 15));
 			tournament.AddTeam(new Team("Sullanmaa", null, 152));
 			tournament.AddTeam(new Team("Han\t", null, 36));
-			tournament.AddTeam(new Team("Fleury\t", null, 2));
+			tournament.AddTeam(new Team("Carey\t", null, 10));
 
 			List<TournamentResult> results = new List<TournamentResult>();
 			for (var i =0; i < 100000; i++)

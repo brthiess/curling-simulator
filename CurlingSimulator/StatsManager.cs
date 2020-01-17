@@ -36,7 +36,7 @@ namespace CurlingSimulator
 				Console.Write("\n" + teamRanking.Key);
 				for(var i = 1; i <= rankingStats.Count; i++)
 				{
-					Console.Write("\t" + teamRanking.Value.GetPercentageForPlacing(i) +"%");
+					Console.Write("\t" + string.Format("{0:0.0}", teamRanking.Value.GetPercentageForPlacing(i)) +"%");
 				}
 			}
 		}

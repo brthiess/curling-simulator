@@ -7,7 +7,7 @@ namespace CurlingSimulator
 	public class RankingsStat
 	{
 		private Dictionary<int, int> placingFrequencies;
-		private Dictionary<int, double> percentageFrequencies;
+		
 		private int totalNumberOfPlacings;
 
 		public RankingsStat()
